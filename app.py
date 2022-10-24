@@ -1,6 +1,6 @@
 from flask import Flask, send_from_directory
 from flask_restful import Api, Resource, reqparse
-# from flask_cors import CORS
+from flask_cors import CORS
 from api import HelloApiHandler
 from api.HelloApiHandler import HelloApiHandler
 
@@ -13,4 +13,4 @@ api = Api(app)
 def serve(path):
     return send_from_directory(app.static_folder, 'index.html')
 
-api.add_resource(HelloApiHandler, '/')
+api.add_resource(HelloApiHandler, '/hello')
