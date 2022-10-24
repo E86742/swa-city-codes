@@ -87,7 +87,7 @@ flake8 @ file:///tmp/build/80754af9/flake8_1620776156532/work
 Flask==2.2.2
 Flask-Cors @ file:///home/conda/feedstock_root/build_artifacts/flask-cors_1622383494577/work
 Flask-RESTful @ file:///home/conda/feedstock_root/build_artifacts/flask-restful_1622406740831/work
-Flask-SQLAlchemy==3.0.2
+# Flask-SQLAlchemy==3.0.2
 fonttools==4.25.0
 frozenlist @ file:///opt/concourse/worker/volumes/live/b4c48fd3-7df7-4aa9-70fc-74aba3122503/volume/frozenlist_1637767148873/work
 fsspec @ file:///opt/conda/conda-bld/fsspec_1647268051896/work
