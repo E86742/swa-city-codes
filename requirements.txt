@@ -87,7 +87,6 @@ flake8 @ file:///tmp/build/80754af9/flake8_1620776156532/work
 Flask==2.2.2
 Flask-Cors @ file:///home/conda/feedstock_root/build_artifacts/flask-cors_1622383494577/work
 Flask-RESTful @ file:///home/conda/feedstock_root/build_artifacts/flask-restful_1622406740831/work
-# Flask-SQLAlchemy==3.0.2
 fonttools==4.25.0
 frozenlist @ file:///opt/concourse/worker/volumes/live/b4c48fd3-7df7-4aa9-70fc-74aba3122503/volume/frozenlist_1637767148873/work
 fsspec @ file:///opt/conda/conda-bld/fsspec_1647268051896/work
@@ -289,7 +288,6 @@ sphinxcontrib-qthelp @ file:///home/ktietz/src/ci/sphinxcontrib-qthelp_161192105
 sphinxcontrib-serializinghtml @ file:///tmp/build/80754af9/sphinxcontrib-serializinghtml_1624451540180/work
 spyder @ file:///opt/concourse/worker/volumes/live/5ce630f9-babe-4f53-755a-cd7324c300d9/volume/spyder_1636480249527/work
 spyder-kernels @ file:///opt/concourse/worker/volumes/live/72f0c5be-8b9e-43d2-67e5-f038915937d7/volume/spyder-kernels_1634236950410/work
-# SQLAlchemy @ file:///opt/concourse/worker/volumes/live/bfe20d71-b806-4187-4783-cd5d96eb1af2/volume/sqlalchemy_1647599831148/work
 stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
 statsmodels @ file:///opt/concourse/worker/volumes/live/90a089a9-fdd6-4c7e-631b-5fdf9cf55d62/volume/statsmodels_1648033311105/work
 sympy @ file:///opt/concourse/worker/volumes/live/2af8c70b-e999-41ad-6ca8-39318707cbda/volume/sympy_1647854069899/work
