@@ -12,7 +12,9 @@ function App() {
   const [getMessage, setGetMessage] = useState({})
 
   useEffect(() => {
-    axios.get('https://octopus-app-vtamg.ondigitalocean.app/').then(response => {
+    // axios.get('localhost:5000').then(response => {
+      axios.get('https://octopus-app-vtamg.ondigitalocean.app/').then(response => {
+
       console.log("SUCCESS", response)
       setGetMessage(response)
     }).catch(error => {
