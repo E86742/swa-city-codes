@@ -1,4 +1,4 @@
-#!/Users/leodotng/Desktop/SWAProjects/swa-city-codes/activate/bin/python
+#!/Users/leodotng/Desktop/SWAProjects/swa-city-codes/activate/bin/python3.10
 # -*- coding: utf-8 -*-
 import re
 import sys

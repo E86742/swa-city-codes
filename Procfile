@@ -1,1 +1,1 @@
-web: gunicorn app:app && cd ./frontend && npm run build
+web: gunicorn app:app
