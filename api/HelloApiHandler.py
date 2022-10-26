@@ -1,15 +1,13 @@
 import csv
 from flask_restful import Api, Resource, reqparse
+from citycodes import citycodesapi
 
-with open('writeconvertdict-copy.csv', newline='') as h:
-    reader = csv.reader(h)
-    new_code_dict = {rows[0]: rows[1] for rows in reader}
-print(new_code_dict)
+print(citycodesapi)
 
 class HelloApiHandler(Resource):
     def get(self):
         return {
-            new_code_dict
+            citycodesapi
         }
 
     def post(self):
