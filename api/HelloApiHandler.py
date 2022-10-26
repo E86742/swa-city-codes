@@ -1,13 +1,14 @@
 import csv
 from flask_restful import Api, Resource, reqparse
-from citycodes import citycodesapi
+import citycodes
 
-print(citycodesapi)
+print(citycodes.citycodesapi)
+
 
 class HelloApiHandler(Resource):
     def get(self):
         return {
-            citycodesapi
+            citycodes.citycodesapi
         }
 
     def post(self):
