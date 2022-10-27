@@ -123,15 +123,13 @@ citycodesapi = [
     {'city_code': 'IAD', 'city_name': 'Washington (Dulles)'},
     {'city_code': 'DCA', 'city_name': 'Washington (Reagan National)'},
     {'city_code': 'PBI', 'city_name': 'West Palm Beach'},
-    {'city_code': 'ICT', 'city_name': 'Wichita'},
+    {'city_code': 'ICT', 'city_name': 'Wichita'}
 ]
 
 
 class apiv1(Resource):
     def get(self):
-        return json.dumps(
-            citycodesapi
-        )
+        return citycodesapi
 
     def post(self):
         print(self)
