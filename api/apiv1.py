@@ -1,3 +1,7 @@
+import csv
+from flask_restful import Api, Resource, reqparse
+import json
+
 # CITY CODES
 citycodesapi = [
     {'city_code': 'ALB', 'city_name': 'Albany'},
@@ -119,6 +123,22 @@ citycodesapi = [
     {'city_code': 'IAD', 'city_name': 'Washington (Dulles)'},
     {'city_code': 'DCA', 'city_name': 'Washington (Reagan National)'},
     {'city_code': 'PBI', 'city_name': 'West Palm Beach'},
-    {'city_code': 'ICT', 'city_name': 'Wichita'}
+    {'city_code': 'ICT', 'city_name': 'Wichita'},
 ]
-# print(citycodesapi)
+
+
+class apiv1(Resource):
+    def get(self):
+        return json.dumps(
+            citycodesapi
+        )
+
+    def post(self):
+        print(self)
+        parser = reqparse.RequestParser()
+        parser.add_argument('city_code', type=str)
+        parser.add_argument('city_name', type=str)
+
+        args = parser.parse_args()
+
+        print(args)
