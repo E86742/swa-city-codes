@@ -27,8 +27,8 @@ function App() {
   })
 
   useEffect(() => {
-    axios.get('http://127.0.0.1:5000/apiv1').then(response => {
-      // axios.get('https://octopus-app-vtamg.ondigitalocean.app/hello').then(response => {
+    // axios.get('http://127.0.0.1:5000/apiv1').then(response => {
+      axios.get('https://octopus-app-vtamg.ondigitalocean.app/apiv1').then(response => {
 
       console.log(response)
       setGetMessage(response)
